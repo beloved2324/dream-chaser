@@ -10,8 +10,8 @@ public class VArray<T> {
 	
 	private int size;
 	/**
-	 * »ñÈ¡±ä³¤Êý×éµÄÔªËØ¸öÊý
-	 * @return	ÈÝÆ÷ÄÚµÄÔªËØ¸öÊý
+	 * ï¿½ï¿½È¡ï¿½ä³¤ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½Ø¸ï¿½ï¿½ï¿½
+	 * @return	ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½Ôªï¿½Ø¸ï¿½ï¿½ï¿½
 	 */
 	public int size(){
 		return size;
@@ -21,7 +21,6 @@ public class VArray<T> {
 		elementData = DEFAULT_ELEMENTDATA;
 	}
 	/**
-	 * 
 	 * @param index
 	 * @return
 	 */
@@ -71,6 +70,7 @@ public class VArray<T> {
 		}
 		return newData;
 	}
+	
 	public String toString(){
 		StringBuffer buff = new StringBuffer("[");
 		for(int i = 0;i<size;i++){
