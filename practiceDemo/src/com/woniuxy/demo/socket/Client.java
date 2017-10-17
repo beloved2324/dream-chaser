@@ -12,7 +12,7 @@ public class Client {
 
 	public static void main(String[] args) {
 		try {
-			Socket s = new Socket("127.0.0.1", 554);
+			Socket s = new Socket("192.168.199.140", 554);
 			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(
 					s.getOutputStream()));
 			BufferedReader bf = new BufferedReader(new InputStreamReader(

@@ -1,6 +1,6 @@
 package com.woniuxy.demo.enumdemo;
 
-public enum AbstractEnumDemo {
+public enum AbstractEnumDemo{
 	PLUS {
 		@Override
 		public double eval(double x, double y) {
